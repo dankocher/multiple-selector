@@ -42,7 +42,7 @@ class MultipleSelector extends Component {
             <div className="multiple-selector-container">
                 {
                     this.state.selected.map((item, index) => (
-                        <div key={`selector-${index}`} >
+                        <div key={`selector-${index}`} style={{marginBottom: 5}}>
                             <Select labelInValue value={{ key: (data.find(d => d.key === item)).value}} style={{width: '100%'}} size={size}
                                     onChange={item => this.handleChange(item, index)}>
                                 {
