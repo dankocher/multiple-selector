@@ -14,7 +14,7 @@ class MultipleSelector extends Component {
 
     componentWillMount() {
         this.setState({
-            selected: this.props.selected,
+            selected: [...this.props.selected],
             newSelector: this.props.selectText
         });
 
@@ -36,7 +36,9 @@ class MultipleSelector extends Component {
     }
 
     render() {
-        const {data, deleteText, size} = this.props;
+        const {deleteText, size} = this.props;
+
+        const data = this.props.data === undefined ? [] : this.props.data;
 
         return (
             <div className="multiple-selector-container">

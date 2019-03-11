@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import MultipleSelector from "./components/MultipleSelector";
 
 
-const elements = [
+const __elements = [
     {
         key: "1",
         value: "Item 1"
@@ -29,7 +29,13 @@ const elements = [
 
 class App extends Component {
 
-    onChangeMultipleSelector(data) {
+    data = __elements;
+
+    selecteds = ["1", "2"];
+
+
+    onChangeMultipleSelector = async (data) => {
+        console.log(this.selecteds);
         console.log(data)
     }
 
@@ -39,8 +45,8 @@ class App extends Component {
         <header className="App-header">
             <div style={{width: 400, height: 400, padding: 5, backgroundColor: 'white'}}>
                 <MultipleSelector
-                    data={elements}
-                    selected={["1", "2"]}
+                    data={__elements}
+                    selected={this.selecteds}
                     onChange={this.onChangeMultipleSelector}
                     selectText={'Add Item'}
                     deleteText={'Delete Item'}
