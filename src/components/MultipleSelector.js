@@ -21,6 +21,12 @@ class MultipleSelector extends Component {
         this.defaultSelectText = this.props.selectText;
     }
 
+    componentWillReceiveProps(nextProps, nextContext) {
+        this.setState({
+            selected: [...nextProps.selected]
+        });
+    }
+
     async handleChange(item, index) {
         if (item.key === "delete") {
             await this.state.selected.splice(index, 1);
