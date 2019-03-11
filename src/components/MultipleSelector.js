@@ -90,7 +90,7 @@ class MultipleSelector extends Component {
 
 MultipleSelector.propTypes = {
     data: PropTypes.array.isRequired,
-    onChange: PropTypes.array.isRequired,
+    onChange: PropTypes.isRequired,
 };
 
 export default MultipleSelector;

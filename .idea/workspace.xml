@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="282077cc-ecb1-4546-b0e5-9438d9b88bbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MultipleSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MultipleSelector.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+                <state relative-caret-position="993">
+                  <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -42,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/MultipleSelector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+                <state>
+                  <caret selection-end-column="68" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -202,7 +201,7 @@
       <updated>1552036966144</updated>
       <workItem from="1552036967598" duration="8614000" />
       <workItem from="1552310470745" duration="708000" />
-      <workItem from="1552321914510" duration="49000" />
+      <workItem from="1552321914510" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="Ready multiple selector,&#10;For syles use antd">
       <created>1552042184870</created>
@@ -225,11 +224,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552311084599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added componentWillReceiveProps">
+      <created>1552322092701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552322092701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added PropTypes">
+      <created>1552325032886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552325032886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9371000" />
+    <option name="totallyTimeSpent" value="11074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="30" width="2560" height="1410" extended-state="6" />
@@ -262,7 +275,9 @@
     <MESSAGE value="Ready multiple selector,&#10;For syles use antd" />
     <MESSAGE value="Fixed space between selectors" />
     <MESSAGE value="Fixed error with previous data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error with previous data" />
+    <MESSAGE value="Added componentWillReceiveProps" />
+    <MESSAGE value="Added PropTypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PropTypes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/multiple-selector/styles.css" />
@@ -275,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="993">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -285,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MultipleSelector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state>
+          <caret selection-end-column="68" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
