@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component, ReactPropTypes as PropTypes} from 'react';
 import { Select } from 'antd';
 
 const Option = Select.Option;
@@ -87,5 +87,10 @@ class MultipleSelector extends Component {
         );
     }
 }
+
+MultipleSelector.propTypes = {
+    data: PropTypes.array.isRequired,
+    onChange: PropTypes.array.isRequired,
+};
 
 export default MultipleSelector;
